@@ -51,7 +51,7 @@
                             <circle id="Oval-9-Copy" fill="#F7BE14" cx="154" cy="90" r="16"></circle>
                             <circle id="Oval-9-Copy" fill="#13D0ED" cx="62" cy="90" r="16"></circle>
                             <g id="Group-5">
-                                <g id="Group-12" transform="translate(0.000000, 202.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF" fill="#1C3144" font-weight="bold">
+                                <g id="Group-12" transform="translate(0.000000, 202.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" fill="#1C3144" font-weight="bold">
                                     <text id="24">
                                         <tspan x="8.041" y="13">24</tspan>
                                     </text>
@@ -74,7 +74,7 @@
                                         <tspan x="283.747" y="13">30</tspan>
                                     </text>
                                 </g>
-                                <g id="Group-12-Copy-2" transform="translate(0.000000, 242.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF" fill="#1C3144" font-weight="bold">
+                                <g id="Group-12-Copy-2" transform="translate(0.000000, 242.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" fill="#1C3144" font-weight="bold">
                                     <text id="1">
                                         <tspan x="13.151" y="13">1</tspan>
                                     </text>
@@ -100,31 +100,31 @@
                                 <g id="Group-12-Copy" transform="translate(0.000000, 282.000000)">
                                     <g id="Group-23" fill="#F86A60">
                                         <circle id="Oval-9-Copy" cx="5" cy="6" r="5"></circle>
-                                        <text id="WORST" font-family="WhitneyHTF-Bold, Whitney HTF" font-size="10" font-weight="bold" letter-spacing="0.5">
+                                        <text id="WORST" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" font-size="10" font-weight="bold" letter-spacing="0.5">
                                             <tspan x="18" y="10">WORST</tspan>
                                         </text>
                                     </g>
                                     <g id="Group-22" transform="translate(88.000000, 0.000000)" fill="#F9B061">
                                         <circle id="Oval-9-Copy" cx="5" cy="6" r="5"></circle>
-                                        <text id="AVARAGE" font-family="WhitneyHTF-Bold, Whitney HTF" font-size="10" font-weight="bold" letter-spacing="0.5">
+                                        <text id="AVARAGE" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" font-size="10" font-weight="bold" letter-spacing="0.5">
                                             <tspan x="18" y="10">AVARAGE</tspan>
                                         </text>
                                     </g>
                                     <g id="Group-21" transform="translate(185.000000, 0.000000)" fill="#13D0ED">
                                         <circle id="Oval-9-Copy" cx="5" cy="6" r="5"></circle>
-                                        <text id="GOOD" font-family="WhitneyHTF-Bold, Whitney HTF" font-size="10" font-weight="bold" letter-spacing="0.5">
+                                        <text id="GOOD" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" font-size="10" font-weight="bold" letter-spacing="0.5">
                                             <tspan x="18" y="10">GOOD</tspan>
                                         </text>
                                     </g>
                                     <g id="Group-20" transform="translate(266.000000, 0.000000)" fill="#5654D7">
                                         <circle id="Oval-9-Copy" cx="5" cy="6" r="5"></circle>
-                                        <text id="BEST" font-family="WhitneyHTF-Bold, Whitney HTF" font-size="10" font-weight="bold" letter-spacing="0.5">
+                                        <text id="BEST" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" font-size="10" font-weight="bold" letter-spacing="0.5">
                                             <tspan x="18" y="10">BES</tspan>
                                             <tspan x="36.26" y="10">T</tspan>
                                         </text>
                                     </g>
                                 </g>
-                                <g id="Group-14" transform="translate(0.000000, 121.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF" fill="#1C3144" font-weight="bold">
+                                <g id="Group-14" transform="translate(0.000000, 121.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" fill="#1C3144" font-weight="bold">
                                     <text id="10">
                                         <tspan x="8.713" y="13">10</tspan>
                                     </text>
@@ -147,7 +147,7 @@
                                         <tspan x="285.112" y="13">16</tspan>
                                     </text>
                                 </g>
-                                <g id="Group-15" transform="translate(0.000000, 81.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF" font-weight="bold">
+                                <g id="Group-15" transform="translate(0.000000, 81.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" font-weight="bold">
                                     <text id="3" fill="#FFFFFF">
                                         <tspan x="12.185" y="13">3</tspan>
                                     </text>
@@ -170,7 +170,7 @@
                                         <tspan x="287.961" y="13">9</tspan>
                                     </text>
                                 </g>
-                                <g id="Group-17" transform="translate(0.000000, 42.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF" font-weight="bold">
+                                <g id="Group-17" transform="translate(0.000000, 42.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" font-weight="bold">
                                     <text id="27" fill-opacity="0.3" fill="#1C3144">
                                         <tspan x="8.44" y="13">27</tspan>
                                     </text>
@@ -193,7 +193,7 @@
                                         <tspan x="288.136" y="13">2</tspan>
                                     </text>
                                 </g>
-                                <g id="Group-19" font-size="16" font-family="WhitneyHTF-Bold, Whitney HTF" fill="#1C3144" font-weight="bold">
+                                <g id="Group-19" font-size="16" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" fill="#1C3144" font-weight="bold">
                                     <text id="SU">
                                         <tspan x="6.072" y="15">SU</tspan>
                                     </text>
@@ -216,7 +216,7 @@
                                         <tspan x="282.064" y="15">SA</tspan>
                                     </text>
                                 </g>
-                                <g id="Group-13" transform="translate(0.000000, 162.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF" fill="#1C3144" font-weight="bold">
+                                <g id="Group-13" transform="translate(0.000000, 162.000000)" font-size="14" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" fill="#1C3144" font-weight="bold">
                                     <text id="17">
                                         <tspan x="9.364" y="13">17</tspan>
                                     </text>
@@ -241,7 +241,7 @@
                                 </g>
                             </g>
                         </g>
-                        <text id="SEPTEMBER-2017" font-family="WhitneyHTF-Bold, Whitney HTF" font-size="18" font-weight="bold" fill="#FFFFFF">
+                        <text id="SEPTEMBER-2017" font-family="WhitneyHTF-Bold, Whitney HTF, Arial" font-size="18" font-weight="bold" fill="#FFFFFF">
                             <tspan x="108.552" y="51">SEPTEMBER 2017</tspan>
                         </text>
                     </g>
