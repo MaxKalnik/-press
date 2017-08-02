@@ -4,28 +4,32 @@
 
   .main-pic
     padding: 32px 60px 32px 60px
-    background-position center
-  
+    background-position: 50% 50%
+
   .text-box
     padding: 64px 60px 64px 60px
     &--upper
       position: relative
       padding-left: 315px
-  
+
   .upper-pic
     left: 60px
-    
+
   .show_more
     margin-top: 44px
-  
+
   .ontime-rank
     padding-right: 730px
-  
+
   .busiest-rank
     padding-left: 607px
-  
+
   .ontime-best-rank
     padding-right: 607px
+
+  .change-table
+    td
+      padding: 16px 12px 16px 15px
 
 @media (max-width: 1850px)
   .content
@@ -37,7 +41,7 @@
   .main-pic
     padding-left: 60px
     height: 635px
-  
+
   .related-head
     padding: 0 25px
 
@@ -59,7 +63,7 @@
         padding-right: 600px
         &:nth-child(n+3)
           padding-right: 0
-          
+
     .table
       width: 565px
       td
@@ -67,10 +71,10 @@
         &:nth-child(2)
           padding-left: 12px
           font-size: 14px
-          
+
         &:last-child
           padding-right: 14px
-          
+
   .busiest-rank
     padding-left: 0
     .info-list
@@ -78,7 +82,7 @@
         margin-left: 600px
         &:nth-child(n+4)
           margin-left: 0
-          
+
 
   .change-rank
   &__table
@@ -86,19 +90,19 @@
       padding-left: 22px
       &:nth-child(2)
         padding: 0
-        text-align: center      
+        text-align: center
     td
+      padding: 16px 12px 16px 15px
       &:first-child
         width: 52%
 
       &:nth-child(2)
-        width: auto
-          
+        width: 48%
 
 @media (max-width: 1370px)
   .content
     width: 980px
-  
+
   .article-title
     font-size: 40px
     line-height: 68px
@@ -110,7 +114,7 @@
     line-height: 30px
     font-weight: 300
     margin-bottom: 42px
-    
+
   .article-author
     font-size: 12px
     line-height: 16px
@@ -125,14 +129,14 @@
   .under-title
     margin-bottom: 32px
 
-  .ontime-rank         
+  .ontime-rank
     .table
       width: 565px
-          
+
   .change-rank
     &__table
       width: 425px
-      
+
   .ontime-best-rank
     padding-right: 377px
     .table
@@ -146,7 +150,12 @@
           padding-left: 16px
         &:last-child
           padding-left: 16px
-         
+
+  .small__table--comparsion
+    td
+      &:nth-child(3)
+        display: none
+
   .related-head
     padding: 0 20px
 
@@ -167,11 +176,18 @@
   .text-box.last
     display: block
 
+  .change-table
+    padding: 16px 0
+
+  .show_more--ontime
+    margin-left: 50%
+    transform: translatex(-50%)
+
 @media (max-width: 1019px)
   .content
     width: auto
     max-width: 740px
-    
+
   .article-title
     font-size: 32px
     line-height: 38px
@@ -183,12 +199,12 @@
     line-height: 30px
     font-weight: 300
     margin-bottom: 12px
-    
+
   .article-author
     font-size: 12px
     line-height: 16px
     font-weight: 300
-    
+
   .main-pic
     height: 345px
     padding: 32px 25px 32px 25px
@@ -198,7 +214,7 @@
 
   .top-menu__link
     margin: 0 10px
-    
+
   .text-box
     padding: 44px 25px 44px 25px
     &--upper
@@ -210,14 +226,14 @@
       .upper-pic
         position: static
         width: 210px
-      
+
       .under-title
         width: 445px
         margin-bottom: 32px
 
       .main-text
         width: 100%
-    
+
   .calendar
     display: flex
     flex-direction: column
@@ -225,7 +241,7 @@
     &__img
       position: static
       align-self: center
-  
+
   .ontime-rank
     display: flex
     flex-direction: column
@@ -237,7 +253,7 @@
       margin-bottom: 32px
     .info-list
       order: 2
-      
+
   .busiest-rank
     display: flex
     flex-direction: column
@@ -248,26 +264,29 @@
       margin-bottom: 32px
     .info-list
       order: 2
-      
+
   .change-rank
     &__table
-      width: 330px   
+      width: 330px
     .change-table
       th
         padding: 0 10px
         padding-left: 24px
         &:nth-child(2)
+          display: none
+
+        &:nth-child(3)
           padding-left: 18px
           text-align: left
-              
+
       td
         &:first-child
           width: 60%
           padding-right: 0
-        
+
         &:nth-child(2)
-          width: auto
-          
+          display: none
+
   .ontime-best-rank
     display: flex
     flex-direction: row
@@ -285,7 +304,7 @@
       order: 3
       margin: auto
       margin-top: 32px
-      
+
 
   .block-title
     margin-bottom: 32px
@@ -334,13 +353,13 @@
 
   .row10
     background-color: #F0FBFE
-  
+
   .mobile-only-close
     display: none
-       
+
   .mobile-only-show
     display: none
-    
+
  .ranking-table.show
   padding-top: 20px
   margin-right: 15px
@@ -369,7 +388,7 @@
 
   .top-logo
     display: none
-    
+
   .mob-logo
     display: block
     width: 35px
@@ -397,18 +416,20 @@
     line-height: 24px
     font-weight: 300
     margin-bottom: 12px
-    
+
   .article-author
     font-size: 12px
     line-height: 16px
     font-weight: 300
 
+  .primary-text
+    margin-bottom: 0
+
   .main-pic
     height: 345px
     padding: 16px 12px 16px 12px
-    background-position: 27% 10%
     background-image url("images/main_pic_320@2x.png")
-  
+
   .main-pic__mask
     height: 170px
 
@@ -420,12 +441,12 @@
         margin-bottom: 32px
       .under-title
         width: 100%
-      
+
       .under-title
         font-size: 16px
         line-height: 28px
         font-weight: 200
-        
+
       .main-text
         font-size: 14px
         line-height: 24px
@@ -435,7 +456,7 @@
     &__img
       img
         width: 276px
-      
+
   .ontime-rank
     box-sizing: border-box
     .table
@@ -446,7 +467,7 @@
         line-height: 20px
         top: 15px
         left: 100px
-    
+
       table
         tbody
           display: flex
@@ -472,49 +493,49 @@
                 padding-top: 10px
                 padding-left: 0
                 padding-right: 14px
-                
+
           .row1
             order: 1
-        
+
           .row2
             order: 2
-          
+
           .row3
             order: 3
-          
+
           .row4
             order: 4
-          
+
           .row5
             order: 5
-          
+
           .row6
             order: 6
             background-color: $color_white
-          
+
           .row7
             order: 7
             background-color: #F0FBFE
-          
+
           .row8
             order: 8
             background-color: $color_white
-          
+
           .row9
             order: 9
             background-color: #F0FBFE
-            
+
           .row10
             order: 10
             background-color: $color_white
             td
               &:first-child
                 padding-left: 8px
-  
+
   .busiest-rank
     .table
       width: 100%
-      
+
     table
       th
         border-right: none
@@ -522,19 +543,19 @@
           text-align: center
           padding-left: 8px
           padding-right: 0
-          
+
         &:nth-child(2)
           padding-right: 0
           padding-left: 6px
-          
+
         &:nth-child(3)
           display: none
-          
+
         &:last-child
           padding-left: 0
           padding-right: 0
           text-align: center
-          
+
       td
         &:first-child
           width: 5%
@@ -546,12 +567,12 @@
 
         &:nth-child(3)
           display: none
-          
+
         &:last-child
           width: 10%
           padding-left: 0
           padding-right: 0
-          
+
   .change-rank
     flex-direction: column
     &__table
@@ -567,9 +588,9 @@
             padding-left: 14px
 
           &:nth-child(2)
-            padding-left: 0 
+            padding-left: 0
             padding-right: 8px
-            text-align: center   
+            text-align: center
 
         td
           &:first-child
@@ -593,16 +614,16 @@
         font-size: 12px
         line-height: 20px
     .small__table
-      tbody  
+      tbody
         td
           padding-left: 10px
           &:first-child
             padding-left: 10px
-            
+
           &:last-child
             padding-left: 0
-            padding-right: 14px        
-          
+            padding-right: 14px
+
 
   .show_more
     display: flex
@@ -628,7 +649,7 @@
     flex-wrap wrap
 
   .bottom-col
-    width: 100% 
+    width: 100%
 
   .block-title
     font-size 26px
@@ -727,7 +748,7 @@
       &:nth-child(3)
         overflow: hidden
         min-width: 90px
-      
+
   .table
     display: flex
     flex-direction: row
@@ -735,12 +756,12 @@
     justify-content: flex-start
     align-items: center
     padding: 0 2px 2px
-  
+
     &:before
       position: static
       margin-left: 16px
       margin-right: 16px
-        
+
     &__head
       width: 60%
       position: static
@@ -748,20 +769,20 @@
       min-height: 64px
       display: flex
       align-items: center
-    
+
     .small__table
       width: 100%
-      
+
   .ontime-rank
     .table
       &:before
         margin-top: auto
-        
+
   .busiest-rank
     .table
       &:before
         margin-top: auto
-    
+
   .mobile-table
     width: 100%
     margin-bottom: 16px
@@ -788,7 +809,7 @@
     right: 25px
     .icon
       margin-right: 8px
-    
+
   .ranking-table
     .full-table
       display: none

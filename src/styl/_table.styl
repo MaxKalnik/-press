@@ -4,7 +4,7 @@
 .table
 	position: relative
 	width: 650px
-	background: linear-gradient(to right, #009EE8 0%, #00D2F6 100%) 
+	background: linear-gradient(to right, #4D4BD4 0%, #7A79D4 100%)
 	padding-top: 65px
 	padding-left: 2px
 	padding-right: 2px
@@ -29,31 +29,31 @@
 		color: $color_white
 		text-transform: uppercase
 		text-align: center
-				
+
 .small__table
 	width: 100%
 	border-collapse: collapse
-		
-	tbody		
+
+	tbody
 		td
 			height: 50px
 			padding-left: 24px
 			box-sizing: border-box
-			border-top: 1px solid #F2FBFE
-			border-bottom: 1px solid #D8EAEF
+			border-top: 1px solid #E7EDF0
+			border-bottom: 1px solid #DEE3EF
 			&:first-child
 				color: #7E9EA8
-				
+
 			&:nth-child(2)
 				font-weight: 600
-				
+
 			&:nth-child(4)
 				color: #7E9EA8
-					
+
 		tr
 			background-color: $color_white
 			&:nth-child(odd)
-				background-color: #F0FBFE
+				background-color: #F5F4FE
 
 
 .ontime-rank
@@ -64,7 +64,7 @@
 
 		td:last-child
 			padding-right: 24px
-			
+
 		table
 			tbody
 				display: flex
@@ -85,53 +85,53 @@
 							padding-left: 0
 				.row1
 					order: 1
-				
+
 				.row2
 					order: 3
-				
+
 				.row3
 					order: 5
-				
+
 				.row4
 					order: 7
-				
+
 				.row5
 					order: 9
-				
+
 				.row6
 					order: 2
-					background-color: #F0FBFE
-				
+					background-color: #F5F4FE
+
 				.row7
 					order: 4
 					background-color: $color_white
-				
+
 				.row8
 					order: 6
-					background-color: #F0FBFE
-				
+					background-color: #F5F4FE
+
 				.row9
 					order: 8
 					background-color: $color_white
-					
+
 				.row10
 					order: 10
-					background-color: #F0FBFE
-			
+					background-color: #F5F4FE
+
 .table--busiest
 	width: 540px
 	background-image: linear-gradient(to right, #FF505B 0%, #FF7B7B 100%)
 	box-shadow: -1px 37px 43px -40px rgba(161, 20, 25, 0.5)
 	&__head
 		left: 98px
-		
+
 	&:before
 		width: 70px
 		height: 54px
 		background-image: url(images/icons/icon_balls.svg)
 		background-position: center
 		background-repeat: no-repeat
-		
+
 .small__table--busiest
 	th
 		height: 50px
@@ -157,22 +157,22 @@
 			border-bottom: 1px solid #F3E8E7
 			&:first-child
 				font-size: 12px
-						
+
 			&:nth-child(2)
 				width: 33%
 				font-size: 14px
 				line-height: 24px
 				padding-right: 0
 				text-align: left
-				
+
 			&:nth-child(3)
-				width: 25%
+				width: 26%
 				font-size: 14px
 				line-height: 24px
 				padding-right: 0
 				color: #173144
 				text-align: left
-				
+
 			&:nth-child(4)
 				width: 35%
 				font-size: 12px
@@ -209,7 +209,7 @@
 			width: 32px
 			height: 32px
 			background-image: url(images/svg/thumbs_up.svg)
-				
+
 	th
 		height: 52px
 		padding: 0 22px
@@ -225,7 +225,7 @@
 		&:last-child
 			border-right: none
 			text-align: center
-		
+
 	tr
 		background-color: $color_white
 		&:nth-child(even)
@@ -234,12 +234,18 @@
 	td
 		padding: 16px 24px 16px 24px
 		&:first-child
+			width: 48%
 			font-size: 14px
 			line-height: 24px
 			font-weight: 600
 			color: #173144
-		
+
 		&:nth-child(2)
+			font-size: 12px
+			line-height: 16px
+			width: 26%
+
+		&:nth-child(3)
 			font-size: 12px
 			line-height: 16px
 			font-weight: 600
@@ -251,23 +257,28 @@
 
 .change-table--reduction
 	caption
-		color: #FF9546
+		color: #F8AC67
 		&:before
 			background-image: url(images/svg/thumbs_down.svg)
-			
+
 	th
 		color: #BE8E6A
 		background-color: #FFF6EF
-		
+
 	tr
 		background-color: $color_white
 		&:nth-child(even)
 			background-color: #FFFBF7
-	
+
 .table--comparsion-best
 	width: 540px
 	right: 0
 	top: 0
+	td:nth-child(3)
+		width: 34%
+		font-size: 14px
+		line-height: 16px
+
 	.rate-block
 		font-size: 12px
 	&:before
@@ -275,16 +286,16 @@
 		height: 23px
 		top: 21px
 		background-image: url(images/svg/best.svg)
-	
+
 	.table__head
 		font-size: 13px
 		line-height: 22px
 		font-weight: bold
 		left: 72px
-				
+
 .ontime-best-rank
 	.small__table
-		tbody		
+		tbody
 			td
 				&:first-child
 					font-size: 12px
@@ -298,27 +309,32 @@
 					color: #0A0602
 				&:last-child
 					padding-right: 24px
-									
+
 			tr
 				background-color: $color_white
 				&:nth-child(even)
-					background-color: #F0FBFE
+					background-color: #F5F4FE
 
 .table--comparsion-worst
 	width: 540px
 	right: 0
 	top: 364px
 	background: linear-gradient(to right, #FF7D7C 0%, #FF6B89 100%)
-	box-shadow: -1px 37px 43px -40px rgba(161, 20, 25, 0.5) 
+	box-shadow: -1px 37px 43px -40px rgba(161, 20, 25, 0.5)
+	td:nth-child(3)
+		width: 40%
+		font-size: 14px
+		line-height: 16px
+
 	.rate-block
 		font-size: 12px
-		
+
 	&:before
 		width: 46px
 		height: 18px
 		top: 23px
 		background-image: url(images/svg/worst.svg)
-		
+
 	.table__head
 		font-size: 13px
 		line-height: 22px
@@ -326,7 +342,7 @@
 		left: 72px
 
 	.small__table
-		tbody		
+		tbody
 			td
 				border-top: 1px solid #E7E4E6
 				border-bottom: 1px solid #E5EDF0
@@ -340,33 +356,33 @@
 					line-height: 14px
 					font-weight: bold
 					color: #0A0602
-									
+
 			tr
 				background-color: $color_white
 				&:nth-child(even)
 					background-color: #FFF5F4
-				
+
 		.rate-block
 			&:first-child
 				background-color: #FF696B
-				
+
 			&:nth-child(2)
 				background-color: #FF6A76
-				
+
 			&:nth-child(3)
 				background-color: #FF6B7C
-				
+
 			&:nth-child(4)
 				background-color: #FF6B84
-				
+
 			&:nth-child(5)
 				background-color: #FCF4F4
-				
+
 .full-table
 	width: 100%
 	min-width: 600px
 	border-collapse: collapse
-	background-image: linear-gradient(to right, #4293EA 0%, #5DCAF7 100%)
+	background-image: linear-gradient(to right, #4D4BD4 0%, #7A79D4 100%)
 	border-radius: 5px
 	thead
 		th
@@ -379,12 +395,12 @@
 			border-right: 1px solid rgba(255,255,255,0.2)
 			&:last-child
 				border-right: none
-	
+
 	tbody
 		tr
 			background-color: #ffffff
 			&:nth-child(odd)
-				background-color: #F6FBFE
+				background-color: #F5F4FE
 		td
 			padding: 17px 15px 18px 25px
 			border-top: 1px solid #F2FBFE
@@ -395,161 +411,162 @@
 				line-height: 14px
 				font-weight: 600
 				color: #859BA6
-				
+
 			&:nth-child(2)
 				width: 33%
 				font-size: 14px
 				line-height: 16px
 				font-weight: 600
 				color: #1C3144
-			
+
 			&:nth-child(3)
+				font-size: 14px
+				line-height: 16px
+
+			&:nth-child(4)
 				text-align: center
-				
-			&:nth-child(4),
-			&:nth-child(5)
+
+			&:nth-child(5),
+			&:nth-child(6)
 				font-size: 13px
 				line-height: 14px
 				font-weight: 600
 				text-align: center
 				color: #1C3144
-	
+
 	.rate-block
-		background-color: #67B0F1
+		background-color: #5654d7
 		&:before
 			top: 6px
 
 	.item2
-		background-color: #51ADF2
+		background-color: #5657D6
 
 	.item3
-		background-color: #5DAFF1
-		
+		background-color: #5765D8
+
 	.item4
-		background-color: #57A6F0
-		
+		background-color: #5766D8
+
 	.item5
-		background-color: #5DA3F1
-		
+		background-color: #5D83DC
+
 	.item6
-		background-color: #5FA0F1
-		
+		background-color: #5C83DC
+
 	.item7
-		background-color: #629EF1
-		
+		background-color: #6191E0
+
 	.item8
-		background-color: #679BF1
-		
+		background-color: #6191E0
+
 	.item9
-		background-color: #6B97F2
-		
+		background-color: #679FE2
+
 	.item10
-		background-color: #7093F2
-		
+		background-color: #6BA8E3
+
 	.item11
-		background-color: #7491F3
-		
+		background-color: #70B2E6
+
 	.item12
-		background-color: #7A8EF3
-		
+		background-color: #7BC7EA
+
 	.item13
-		background-color: #7F8BF3
-		
+		background-color: #7BC8EA
+
 	.item14
-		background-color: #8389F3
-		
+		background-color: #7BC7EA
+
 	.item15
-		background-color: #8885F4
-		
+		background-color: #81CCD6
+
 	.item16
-		background-color: #8D83F4
-		
+		background-color: #86CABD
+
 	.item17
-		background-color: #917EF3
-		
+		background-color: #81CCD6
+
 	.item18
-		background-color: #977CF4
-		
+		background-color: #8CC9A9
+
 	.item19
-		background-color: #9B79F4
-		
+		background-color: #8CC9A9
+
 	.item20
-		background-color: #A076F4
-		
+		background-color: #91C79B
+
 	.item21
-		background-color: #A671F4
-		
+		background-color: #96C791
+
 	.item22
-		background-color: #AB6FF5
-		
+		background-color: #9EC683
+
 	.item23
-		background-color: #B26DF5
-		
+		background-color: #A5C576
+
 	.item24
-		background-color: #B569F5
-		
+		background-color: #B3C564
+
 	.item25
-		background-color: #BA67F2
-		
+		background-color: #B3C564
+
 	.item26
-		background-color: #BB68EE
-		
+		background-color: #BFC352
+
 	.item27
-		background-color: #BE69E6
-		
+		background-color: #C9C34A
+
 	.item28
-		background-color: #C269DE
-		
+		background-color: #D2C23E
+
 	.item29
-		background-color: #C468D7
-		
+		background-color: #DCC337
+
 	.item30
-		background-color: #C669D0
-		
+		background-color: #E6BF31
+
 	.item31
-		background-color: #C869C7
-		
+		background-color: #E5BF31
+
 	.item32
-		background-color: #CC69C0
-		
+		background-color: #E6BF31
+
 	.item33
-		background-color: #CE69B9
-		
+		background-color: #E3B534
+
 	.item34
-		background-color: #D069B2
-		
+		background-color: #E1AB39
+
 	.item35
-		background-color: #D46AAC
-	
+		background-color: #DFA03E
+
 	.item36
-		background-color: #D669A5
-		
+		background-color: #E1AB39
+
 	.item37
-		background-color: #DA699D
-		
+		background-color: #DFA03E
+
 	.item38
-		background-color: #DC6A97
-		
+		background-color: #DC9644
+
 	.item39
-		background-color: #DD6990
-		
+		background-color: #DA8C49
+
 	.item40
-		background-color: #E16988
-		
+		background-color: #DA8C49
+
 	.item41
-		background-color: #E46A80
-		
+		background-color: #DA8C49
+
 	.item42
-		background-color: #E66A7B
-		
+		background-color: #D88051
+
 	.item43
-		background-color: #EA6974
-		
+		background-color: #D88051
+
 	.item44
-		background-color: #EC6B6E
-		
+		background-color: #D67758
+
 	.item45
-		background-color: #F06964
-
-
-
+		background-color: #D67758
