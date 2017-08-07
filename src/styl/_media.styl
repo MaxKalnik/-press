@@ -118,7 +118,12 @@
     margin: 0 10px
 
   .text-box
-    padding: 44px 25px 44px 25px
+    padding: 44px 25px 100px 25px
+    &:after
+      width: 172px
+      height: 25px
+      right: 25px
+      bottom: 44px
 
   .block-title
     margin-bottom: 32px
@@ -195,7 +200,11 @@
     font-weight: 300
 
   .text-box
-    padding: 32px 12px 32px 12px
+    padding: 32px 12px 88px 12px
+    &:after
+      left: 50%
+      transform: translateX(-50%)
+      bottom: 32px
 
   .cols__wrap
     flex-wrap wrap

@@ -119,12 +119,20 @@ li
       color: $main_color
 
 .text-box
-  padding: 32px 44px 72px 44px
+  position: relative
+  padding: 32px 44px 128px 44px
   background-color: $color_white
   margin-bottom: 10px
-  &--upper
-    position: relative
-    padding-left: 300px
+  &:after
+    content: ''
+    position: absolute
+    width: 288px
+    height: 42px
+    bottom: 72px
+    right: 44px
+    background: url('images/bottom-logo.svg') center no-repeat
+    background-size: cover
+
 
 .date
   font-size: 12px
